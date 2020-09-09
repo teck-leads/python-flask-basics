@@ -1,0 +1,15 @@
+only once at cmd
+py -m venv env
+
+one for each application
+env\Scripts\activate
+
+if any installing is required
+pip install flask
+
+
+set FLASK_APP=app.py
+
+python test.py
+
+flask run
